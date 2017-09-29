@@ -14,5 +14,5 @@ electorn .
 ## Release
 ```
 npm run build
-electron-packager . Hexdit --platform=darwin --arch=x64 --version=1.4.13
+electron-packager . HelloWorld --platform=darwin --arch=x64 --version=1.4.13
 ```
