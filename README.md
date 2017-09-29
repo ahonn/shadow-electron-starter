@@ -1,0 +1,18 @@
+# shadow-electorn-starter
+ClojureScript + Shadow-cljs + Electron + Reagent
+
+## How to Run
+```
+npm install electron-prebuilt -g
+npm install shadow-cljs -g
+npm install
+
+npm run dev
+electorn .
+```
+
+## Release
+```
+npm run build
+electron-packager . Hexdit --platform=darwin --arch=x64 --version=1.4.13
+```

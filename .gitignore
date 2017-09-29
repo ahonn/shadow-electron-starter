@@ -1,0 +1,4 @@
+node_modules/
+
+resources/public/js
+target/
