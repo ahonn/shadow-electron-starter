@@ -55,17 +55,10 @@
    [:pre (join-lines (take 100 (reverse (split-lines @shell-result))))]])
 
 
-(defn start []
+(defn start! []
   (reagent/render
     [root-component]
-    (js/document.getElementById "app-container"))
-  (js/console.log "renderer - start"))
+    (js/document.getElementById "app-container")))
 
-(defn init []
-  (js/console.log "renderer - init")
-  ;; init is only called once, live reload will call stop then start
-  (start))
-
-(defn stop []
-  (js/console.log "renderer - stop"))
+(start!)
 
