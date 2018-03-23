@@ -1,4 +1,4 @@
-# shadow-electorn-starter
+# shadow-electron-starter
 ClojureScript + Shadow-cljs + Electron + Reagent
 
 ## How to Run
