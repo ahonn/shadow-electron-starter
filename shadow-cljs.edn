@@ -1,8 +1,7 @@
 ;; shadow-cljs configuration
 {:source-paths ["src"]
 
- :dependencies [[reagent "0.8.1"]
-                [cljsjs/create-react-class "15.6.3-1"]]
+ :dependencies [[reagent "0.8.1"]]
 
  :builds {:main {:target :node-script
                  :output-to "resources/main.js"
