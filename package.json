@@ -17,10 +17,7 @@
     "ws": "^3.2.0"
   },
   "dependencies": {
-    "create-react-class": "^15.6.2",
     "electron": "^1.7.10",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "shadow-cljs": "^2.2.16"
+    "shadow-cljs": "^2.7.9"
   }
 }
