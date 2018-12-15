@@ -1,5 +1,6 @@
 .shadow-cljs/
 node_modules/
+.nrepl-port
 
 resources/public/js
 resources/main.js
