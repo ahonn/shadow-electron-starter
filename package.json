@@ -17,11 +17,11 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^3.0.12",
-    "shadow-cljs": "^2.7.9"
+    "shadow-cljs": "^2.8.61"
   },
   "dependencies": {
     "create-react-class": "^15.6.3",
-    "react": "^16.6.3",
+    "react": "^16.10.2",
     "react-dom": "^16.10.2"
   }
 }
