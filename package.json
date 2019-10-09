@@ -16,7 +16,7 @@
   "author": "Ahonn Jiang <ahonn95@outlook.com>",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^3.0.12",
+    "electron": "^3.0.16",
     "shadow-cljs": "^2.8.61"
   },
   "dependencies": {
