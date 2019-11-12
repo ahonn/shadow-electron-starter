@@ -8,7 +8,7 @@ npm install shadow-cljs -g
 npm install
 
 npm run dev
-electorn .
+electron .
 ```
 
 ## Release
