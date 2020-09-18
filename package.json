@@ -1,11 +1,11 @@
 {
-  "name": "shadow-electorn-starter",
+  "name": "shadow-electron-starter",
   "version": "1.0.0",
-  "description": "shadow-clijs electron starter",
+  "description": "shadow-cljs electron starter",
   "main": "resources/main.js",
   "scripts": {
-    "dev": "./node_modules/.bin/shadow-cljs watch main renderer",
-    "build": "./node_modules/.bin/shadow-cljs compile main renderer",
+    "dev": "shadow-cljs watch main renderer",
+    "build": "shadow-cljs compile main renderer",
     "clean": "rm -rf resources/public/js/* && rm -rf target"
   },
   "keywords": [
@@ -20,8 +20,7 @@
     "shadow-cljs": "^2.8.110"
   },
   "dependencies": {
-    "create-react-class": "^15.6.3",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react": "16.13.0",
+    "react-dom": "16.13.0"
   }
 }
