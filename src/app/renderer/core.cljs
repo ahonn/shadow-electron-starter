@@ -1,5 +1,6 @@
 (ns app.renderer.core
-  (:require [reagent.core :as reagent :refer [atom]]))
+  (:require [reagent.core :refer [atom]]
+            [reagent.dom :as rd]))
 
 (enable-console-print!)
 
@@ -15,7 +16,7 @@
     {:on-click #(swap! state inc)}
     (str "Clicked " @state " times")]])
 
-(defn start! []
-  (reagent/render
-    [root-component]
-    (js/document.getElementById "app-container")))
+(defn ^:dev/after-load start! []
+  (rd/render
+   [root-component]
+   (js/document.getElementById "app-container")))
